@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A484AFEA2B887ABB0044E0B1 /* NameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484AFE92B887ABB0044E0B1 /* NameCard.swift */; };
 		A4AD99EA2B87E8BA009349F1 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD99E92B87E8BA009349F1 /* WeSplitApp.swift */; };
 		A4AD99EC2B87E8BA009349F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD99EB2B87E8BA009349F1 /* ContentView.swift */; };
 		A4AD99EE2B87E8BB009349F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4AD99ED2B87E8BB009349F1 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A484AFE92B887ABB0044E0B1 /* NameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCard.swift; sourceTree = "<group>"; };
 		A4AD99E62B87E8BA009349F1 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AD99E92B87E8BA009349F1 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		A4AD99EB2B87E8BA009349F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A484AFE82B887AA50044E0B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A484AFE92B887ABB0044E0B1 /* NameCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A4AD99DD2B87E8BA009349F1 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		A4AD99E82B87E8BA009349F1 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				A484AFE82B887AA50044E0B1 /* Views */,
 				A4AD99E92B87E8BA009349F1 /* WeSplitApp.swift */,
 				A4AD99EB2B87E8BA009349F1 /* ContentView.swift */,
 				A4AD99ED2B87E8BB009349F1 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				A4AD99EC2B87E8BA009349F1 /* ContentView.swift in Sources */,
 				A4AD99EA2B87E8BA009349F1 /* WeSplitApp.swift in Sources */,
+				A484AFEA2B887ABB0044E0B1 /* NameCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
